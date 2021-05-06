@@ -14,7 +14,6 @@ const App = () => {
 //   .then(response => response.json())
 //   .then(data => {console.log(data);localStorage.setItem('login',{'token':data.token}); setLogin(true)});
       localStorage.setItem('login',{'token':'sdjhebdcajhewfbjhewbr237hdy3ebdwusjhdbnchjasdbjhbc'});
-      alert(localStorage.getItem('login'));
       setLogin(true);
     };
    
